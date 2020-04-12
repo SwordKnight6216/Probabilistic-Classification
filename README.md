@@ -1,8 +1,9 @@
 # [Safe Handling Instructions for Probabilistic Classification](https://youtu.be/RXMu96RJj_s)
 
+[![test](./pic/RXMu96RJj_s&t.png)](https://www.youtube.com/watch?v=RXMu96RJj_s&t)
+
 ## Keywords
 Machine Learning, Data Science, Metrics, Classification, Probability 
-
 
 ## Abstract
 In Machine Learning, Data Scientists use Classification algorithms to classify new observations (such as cats or dogs). However, a lot of times, people are more interested to know the probabilities of belonging to different classes rather than just the most likely class. For example, in the mortgage industry, knowing the probability of a mortgage being default is more interesting than just knowing the prediction label 0 or 1. In the retail industry, business stakeholders may need the conversion probabilities of leads to calculate the profit margin. Hence, traditional classification problems become probabilistic classification problems. 
@@ -20,10 +21,6 @@ Those are not rare mistakes people make in real life, even for experienced Data 
 * Lastly (about 7 minutes), I talk about different ways to avoid misusing the probabilistic classification output. For example, we can calibrate the scores using both parametric methods (based on Platt’s sigmoid model) or non-parametric methods (based on isotonic regression). We can also stack models using Logistic regression as the last layer output when training the models. 
 Q&A section (about 3 minutes)
 
-## Recording
-[![test](./pic/RXMu96RJj_s&t.png)](https://www.youtube.com/watch?v=RXMu96RJj_s&t)
-
-
 ## Summary
 In machine learning, a common task is to predict whether an unclassified observation belongs to one class or another. However, people are often actually more interested to know the probability of belonging to a class rather than just the most likely class. In such cases, a traditional classification problem becomes a probabilistic classification problem. This distinction is subtle yet crucial, and therefore should be carefully handled. Firstly, the probability-ish outputs of most classifiers are not true probabilities even they are from functions like predict_proba(). Moreover, if we use traditional metrics such as AUC score or F1 score on probabilistic classification problems, we may end up selecting the wrong models. Fortunately, probability calibration techniques, advanced model stacking/blending methods, and more suitable metrics can fix these issues.  
 
@@ -34,4 +31,4 @@ Gordon is a University of Michigan Wolverine, who has academic degrees in Applie
 [Website](https://www.scipy2019.scipy.org/)  
 [Speaker Directory](https://www.scipy2019.scipy.org/speaker-directory)  
 [Conference Schedule](https://www.scipy2019.scipy.org/confschedule)  
-Gordon's talk is between 4:00 pm and 4:30 pm on July 10th, 2019 at the Zlotnik Ballroom.
+Gordon's talk was between 4:00 pm and 4:30 pm on July 10th, 2019 at the Zlotnik Ballroom.
